@@ -1,0 +1,3 @@
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\bin\Debug\Easy_Nex_Maukup.exe.config
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Maukup.exe
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Maukup.pdb
