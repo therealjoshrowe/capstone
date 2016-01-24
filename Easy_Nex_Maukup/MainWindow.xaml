@@ -11,6 +11,6 @@
         <TextBlock x:Name="TaxaBlockHeader" HorizontalAlignment="Left" Margin="10,23,0,0" TextWrapping="Wrap" Text="Taxa" VerticalAlignment="Top" Height="30" Width="68"/>
         <Button x:Name="WriteToFileButton" Content="Write to file" HorizontalAlignment="Left" Margin="384,43,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="72" Margin="10,191,0,0" TextWrapping="Wrap" Text="Enter Matrix:&#xD;&#xA;Taxon Character-Sequence" VerticalAlignment="Top" Width="169" TextChanged="textBox_TextChanged"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,152,0,0" TextWrapping="Wrap" Text="Data" VerticalAlignment="Top" Height="34" Width="68"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,152,0,0" TextWrapping="Wrap" Text=" Characters" VerticalAlignment="Top" Height="34" Width="68"/>
     </Grid>
 </Window>
