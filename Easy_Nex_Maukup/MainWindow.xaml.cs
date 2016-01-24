@@ -21,7 +21,8 @@ namespace Easy_Nex_Maukup
     public partial class MainWindow : Window
     {
         NexusWriter w;
-        String s;
+        String t;
+        String d;
         public MainWindow()
         {
             InitializeComponent();
@@ -29,21 +30,34 @@ namespace Easy_Nex_Maukup
 
         private void Taxa_Data_TextChanged(object sender, TextChangedEventArgs e)
         {
-            s = Taxa_Data.Text.ToString();
+            t = Taxa_Data.Text.ToString();
 
 
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            List<String> l = new List<String>();
-            String [] array = s.Split(new char[] { ' ' } );
-            for (var i = 0; i < array.Length; ++i)
+            List<String> lt = new List<String>();
+            List<String> ld = new List<String>();
+            String [] arrayOfTaxa = t.Split(new char[] { ' ' } );
+            for (var i = 0; i < arrayOfTaxa.Length; ++i)
             {
-                l.Add(array[i]);
+                lt.Add(arrayOfTaxa[i]);
             }
-            w = new NexusWriter(l);
+
+            String[] arrayOfData = d.Split(new char[] { ' '});
+            foreach (String s in arrayOfData)
+            {
+                ld.Add(s);
+            }
+
+            w = new NexusWriter(lt, ld);
             w.WriteToFile();
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            d = textBox.Text.ToString();
         }
     }
 }

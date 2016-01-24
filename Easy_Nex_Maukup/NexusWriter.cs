@@ -9,9 +9,11 @@ namespace Easy_Nex_Maukup
     class NexusWriter
     {
         private List<String> taxa;
-        public NexusWriter(List<String> taxa)
+        private List<String> data;
+        public NexusWriter(List<String> taxa, List<String> data)
         {
             this.taxa = new List<String>(taxa);
+            this.data = new List<String>(data);
         }
 
         public void WriteToFile()
@@ -30,6 +32,16 @@ namespace Easy_Nex_Maukup
                 }
                 file.WriteLine();
 
+                file.WriteLine("END;");
+
+                file.WriteLine("BEGIN CHARACTERS;");
+                file.WriteLine("DIMENSIONS NChar=");
+                file.WriteLine("MATRIX");
+                foreach (String s in data)
+                {
+                    file.WriteLine(s);
+                }
+                file.Write(";");
                 file.WriteLine("END;");
             }
         }
