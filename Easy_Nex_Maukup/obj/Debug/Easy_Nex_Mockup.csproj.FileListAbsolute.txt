@@ -4,11 +4,15 @@ C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Maukup.pdb
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\bin\Debug\Easy_Nex_Maukup.exe
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\bin\Debug\Easy_Nex_Maukup.pdb
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Mockup.csprojResolveAssemblyReference.cache
-C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\MainWindow.g.cs
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\App.g.cs
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Maukup_MarkupCompile.cache
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Maukup_MarkupCompile.lref
-C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\MainWindow.baml
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Maukup.g.resources
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Maukup.Properties.Resources.resources
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Easy_Nex_Mockup.csproj.GenerateResource.Cache
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page1.g.cs
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page1.baml
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\bin\Debug\Shared Code.dll
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\bin\Debug\Shared Code.pdb
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page2.g.cs
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page2.baml

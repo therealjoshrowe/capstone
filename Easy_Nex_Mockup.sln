@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy_Nex_Mockup", "Easy_Nex_Maukup\Easy_Nex_Mockup.csproj", "{D453D20E-BA25-4C5A-AEAC-328FC34A386B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ABCD627E-61F2-48B9-AB51-4AD783853F41} = {ABCD627E-61F2-48B9-AB51-4AD783853F41}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared Code", "Shared Code\Shared Code.csproj", "{ABCD627E-61F2-48B9-AB51-4AD783853F41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{D453D20E-BA25-4C5A-AEAC-328FC34A386B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D453D20E-BA25-4C5A-AEAC-328FC34A386B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D453D20E-BA25-4C5A-AEAC-328FC34A386B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCD627E-61F2-48B9-AB51-4AD783853F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCD627E-61F2-48B9-AB51-4AD783853F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCD627E-61F2-48B9-AB51-4AD783853F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCD627E-61F2-48B9-AB51-4AD783853F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

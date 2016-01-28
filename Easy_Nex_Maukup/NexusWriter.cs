@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shared_Code;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +9,10 @@ namespace Easy_Nex_Maukup
 {
     class NexusWriter
     {
-        private List<String> taxa;
-        private List<String> data;
-        public NexusWriter(List<String> taxa, List<String> data)
+        private NexusFile nexusOb;
+        public NexusWriter(NexusFile n)
         {
-            this.taxa = new List<String>(taxa);
-            this.data = new List<String>(data);
+            nexusOb = n;
         }
 
         public void WriteToFile()
@@ -23,10 +22,10 @@ namespace Easy_Nex_Maukup
             {
                 file.WriteLine("#NEXUS");
                 file.WriteLine("BEGIN TAXA;");
-                file.WriteLine("Dimensions NTax=" + taxa.Count);
+                file.WriteLine("Dimensions NTax=" + nexusOb.T.taxa.Count);
                 file.Write("TaxLabels ");
 
-                foreach (string taxon in taxa)
+                foreach (string taxon in nexusOb.T.taxa)
                 {
                     file.Write(taxon + " ");
                 }
@@ -34,15 +33,6 @@ namespace Easy_Nex_Maukup
 
                 file.WriteLine("END;");
 
-                file.WriteLine("BEGIN CHARACTERS;");
-                file.WriteLine("DIMENSIONS NChar=");
-                file.WriteLine("MATRIX");
-                foreach (String s in data)
-                {
-                    file.WriteLine(s);
-                }
-                file.Write(";");
-                file.WriteLine("END;");
             }
         }
     }
