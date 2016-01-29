@@ -2,3 +2,4 @@ C:\Capstone\Easy_Nex_Mockup\Shared Code\bin\Debug\Shared Code.dll
 C:\Capstone\Easy_Nex_Mockup\Shared Code\bin\Debug\Shared Code.pdb
 C:\Capstone\Easy_Nex_Mockup\Shared Code\obj\Debug\Shared Code.dll
 C:\Capstone\Easy_Nex_Mockup\Shared Code\obj\Debug\Shared Code.pdb
+C:\Capstone\Easy_Nex_Mockup\Shared Code\obj\Debug\Shared Code.csprojResolveAssemblyReference.cache

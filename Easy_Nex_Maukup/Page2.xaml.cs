@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shared_Code;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,8 +28,16 @@ namespace Easy_Nex_Maukup
 
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
-            NexusWriter w = new NexusWriter(App.f);
-            w.WriteToFile();
+            App.f.C = new CharactersBlock();
+            String s = textBox.Text.ToString();
+            String[] array = s.Split(new char[] { '\n' });
+            foreach (String seq in array)
+            {
+                String [] array2  = seq.Split(new char [] { ':' });
+                App.f.C.sequences.Add(new Sequence(array2[0], array2[1]));
+            }
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new Page3());
         }
     }
 }

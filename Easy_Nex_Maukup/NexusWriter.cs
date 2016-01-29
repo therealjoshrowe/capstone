@@ -33,6 +33,17 @@ namespace Easy_Nex_Maukup
 
                 file.WriteLine("END;");
 
+                file.WriteLine("BEGIN CHARACTERS;");
+                file.WriteLine(@"DIMENSIONS NChar=""");
+                file.WriteLine("MATRIX");
+                foreach (Sequence s in App.f.C.sequences)
+                {
+                    file.WriteLine(s.name + " " + s.characters);
+                }
+                file.WriteLine(";");
+                file.WriteLine("END;");
+
+
             }
         }
     }

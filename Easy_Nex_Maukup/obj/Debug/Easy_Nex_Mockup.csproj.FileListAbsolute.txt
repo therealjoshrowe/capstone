@@ -16,3 +16,7 @@ C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\bin\Debug\Shared Code.dll
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\bin\Debug\Shared Code.pdb
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page2.g.cs
 C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page2.baml
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\MainWindow.g.cs
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\MainWindow.baml
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page3.g.cs
+C:\Capstone\Easy_Nex_Mockup\Easy_Nex_Maukup\obj\Debug\Page3.baml
